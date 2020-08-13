@@ -1,0 +1,46 @@
+.box {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: cyan;
+}
+
+.app {
+    width: 100%;
+    height: 620px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.app .app__col1 {
+    width: 50%;
+    height: 620px;
+
+    background-color: darkgreen;
+}
+
+.app .app__col2 {
+    width: 50%;
+    height: 100px;
+    
+    background-color: darkkhaki;
+}
+
+.app .app__col2 .app__col2__sec1{
+    width: 100%;
+    height: 420px;
+    
+    background-color: darkorchid;
+}
+
+.app .app__col2 .app__col2__sec2{
+    width: 100%;
+    height: 200px;
+    
+    background-color: darkorange;
+}
